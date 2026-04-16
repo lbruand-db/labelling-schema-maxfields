@@ -1,0 +1,14 @@
+[project]
+name = "labelling-schema-maxfields"
+version = "0.1.0"
+description = "Reproduction: labeling_session.labeling_schemas must have at most 16 elements"
+requires-python = ">=3.10"
+dependencies = [
+    "databricks-agents>=0.1.0",
+    "databricks-sdk>=0.82.0",
+    "mlflow>=3.5.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+package = true
